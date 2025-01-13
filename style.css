@@ -8,8 +8,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #1c1c2b;
-    color: #333;
+    background-color: #1c1c2b; /* Dark background for overall page */
+    color: #fff; /* Default text color */
+    margin: 0;
 }
 
 a {
@@ -60,7 +61,7 @@ header {
 
 /* Hero Section */
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: #1c1c2b; /* Calm dark background */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -72,18 +73,20 @@ header {
 .hero-content h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    color: #d4d4f7; /* Light calm color for contrast */
 }
 
 .hero-content p {
     font-size: 20px;
     margin-bottom: 20px;
+    color: #b3b3cc; /* Muted light text color */
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #ff5722;
+    background-color: #4caf50; /* Calm green button */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -91,7 +94,7 @@ header {
 }
 
 .btn:hover {
-    background-color: #e64a19;
+    background-color: #388e3c; /* Slightly darker green */
 }
 
 /* Footer */
@@ -103,4 +106,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid #575757;
 }
