@@ -1,0 +1,51 @@
+/* Project Details Section */
+#project-details {
+    padding: 40px 0;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #002147;
+    margin-bottom: 10px;
+}
+
+#project-details ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#project-details ul li {
+    background-color: #E6E6FA;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#project-details .btn {
+    display: inline-block;
+    background-color: #002147;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+    margin-top: 20px;
+}
+
+#project-details .btn:hover {
+    background-color: #000000;
+}
+
+/* Back to Projects Button */
+.container .btn {
+    display: inline-block;
+    margin-top: 20px;
+}
